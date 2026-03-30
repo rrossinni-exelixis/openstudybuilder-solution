@@ -1,2 +1,16 @@
-cdisc-library-client
+# ============================================================
+# CDISC Library Client Integration
+# ============================================================
+# Python client for accessing the CDISC Library REST API
+# Source: https://github.com/cdisc-org/cdisc-library-client
+# Installed from forked repository
+# ============================================================
+
+# CDISC Library Client (from your fork)
+git+https://github.com/YOUR-USERNAME/cdisc-library-client.git@main#egg=cdisc-library-client
+
+# Supporting dependencies (add as needed)
+python-dotenv>=1.0.0       # For loading .env files with API key
+requests>=2.28.0            # HTTP client (may already be in other requirements)
+
 
